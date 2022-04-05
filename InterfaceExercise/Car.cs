@@ -6,10 +6,10 @@ namespace InterfaceExercise
 {
     public class Car : IVehicle , ICompany
     {
-        public string LeatherSeats { get ; set; }
-        public string CupHolder { get; set; }
+        public bool LeatherSeats { get ; set; }
+        public int CupHolders { get; set; }
         public string Radio { get; set; }
-        public string FloorMats { get; set ; }
+        public int FloorMats { get; set ; }
         public string Logo { get ; set; }
         public string Motto { get ; set; }
 
